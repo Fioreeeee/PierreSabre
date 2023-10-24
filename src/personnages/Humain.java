@@ -39,4 +39,14 @@ public class Humain {
         argent -= perte;
     }
     
+    public void acheter(String bien, int prix) {
+        if (argent >= prix) {
+            argent -= prix;
+            parler("J'ai acheté un(e) " + bien + " pour " + prix + " euros.");
+        } 
+        else {
+            parler("Je n'ai pas assez d'argent pour acheter un(e) " + bien + ".");
+        }
+    }
+    
 }
