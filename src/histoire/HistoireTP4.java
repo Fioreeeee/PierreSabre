@@ -1,7 +1,5 @@
 package histoire;
 
-import personnages.Romain;
-
 public class HistoireTP4 {
 
 	
