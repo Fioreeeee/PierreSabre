@@ -19,7 +19,7 @@ public class Humain {
         return argent;
     }
     
-    private void parler(String texte) {
+    public void parler(String texte) {
         System.out.println(nom + " - " + texte);
     }
     
@@ -48,5 +48,6 @@ public class Humain {
             parler("Je n'ai pas assez d'argent pour acheter un(e) " + bien + ".");
         }
     }
+    
     
 }
